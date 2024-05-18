@@ -6,6 +6,11 @@
     <title>iPhone 12 Pro Max - Nolag Tech</title>
     <link rel="icon" href="photos/About.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function redirectToConfirmation() {
+            window.location.href = "confirmation.html";
+        }
+    </script>
 </head>
 <body>
     <nav>
@@ -26,7 +31,7 @@
                     <h1>iPhone 12 Pro Max</h1>
                     <p class="product-description">
                         The iPhone 12 Pro Max features a 6.7-inch Super Retina XDR display.</br> 
-                       It comes with Ceramic Shield for improved durability. </br>
+                        It comes with Ceramic Shield for improved durability. </br>
                         Powered by the A14 Bionic chip, it offers excellent performance.</br> 
                         The Pro camera system delivers outstanding photography and videography capabilities. </br>
                         With 5G capability, it ensures fast download and streaming speeds.</br>
@@ -34,7 +39,7 @@
                     <p class="product-detail-price">$434.50</p>
                     <label for="quantity">Quantity:</label>
                     <input type="number" id="quantity" name="quantity" min="1" value="1" class="quantity-input">
-                    <button class="product-button">Buy Now</button>
+                    <button class="product-button" onclick="redirectToConfirmation()">Buy Now</button>
                 </div>
             </div>
         </div>
